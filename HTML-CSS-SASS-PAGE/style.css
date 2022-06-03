@@ -118,3 +118,13 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+a {
+    color: #05f4be;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #199679;
+    text-decoration: none;
+}
