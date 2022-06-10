@@ -127,4 +127,23 @@ a {
 a:hover {
     color: #199679;
     text-decoration: none;
+<<<<<<< HEAD
+}
+
+#clicke {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+}
+
+#clickeSH {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+=======
+>>>>>>> parent of 85c5713 (EastereggAdd)
 }
