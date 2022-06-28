@@ -1,0 +1,304 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+.navselect {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav {
+    height: 6em;
+}
+
+.navlist {
+    margin-right: 2em !important;
+}
+
+.mainpng {
+    width: 80%;
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titelpack {
+    padding-top: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpack {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startinfo {
+    display: block;
+}
+
+.startrow {
+    display: block;
+}
+
+.learnmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 3%;
+    background-color: #3768d2;
+    border-color: #3768d2;
+  }
+
+.arrow-img {
+    width: 100%;
+}
+
+.btn-danger:focus {
+    box-shadow: 0 0 0 .25rem #3768d2 !important;
+}
+
+.btn-learnmore a{
+    text-decoration: none;
+    color: #212529;
+}
+
+.btn-learnmore{
+    height: 3em;
+    width: 8em;
+    background-color: #3768d2;
+    border-radius: 1em;
+}
+
+.productlabel {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.firstproducts {
+    padding-top: 6em;
+}
+
+.productscontainer {
+    background-color: #999b9f;
+    padding-bottom: 2em;
+}
+
+.checkmark {
+    background-image: url(/img/plus.png);
+}
+
+div.snip1205 {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+  }
+  div.snip1205 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+  }
+  div.snip1205 img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+  div.snip1205 ion-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    font-size: 34px;
+    color: #000000;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  div.snip1205 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  div.snip1205.blue {
+    background-color: #2472a4;
+  }
+  div.snip1205.blue ion-icon {
+    color: #20638f;
+  }
+  div.snip1205.red {
+    background-color: #ab3326;
+  }
+  div.snip1205.red ion-icon {
+    color: #962d22;
+  }
+  div.snip1205.yellow {
+    background-color: #e08e0b;
+  }
+  div.snip1205.yellow i {
+    color: #c87f0a;
+  }
+  div.snip1205.green {
+    background-color: #229955;
+  }
+  div.snip1205.green i {
+    color: #1e8449;
+  }
+  div.snip1205.orange {
+    background-color: #d67118;
+  }
+  div.snip1205.orange i {
+    color: #bf6516;
+  }
+  div.snip1205.navy {
+    background-color: transparent;
+  }
+  div.snip1205.navy ion-icon {
+    color: #3768d2;
+  }
+  div.snip1205:hover img,
+  div.snip1205.hover img {
+    opacity: 0.3;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  div.snip1205:hover ion-icon,
+  div.snip1205.hover ion-icon {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .positionimgproducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .centerproducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teamimg {
+      border-radius: 50%;
+  }
+
+  .firstteam {
+    padding-top: 6em;
+  }
+
+  .teamleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right-style: solid;
+    border-color: #3768d2;
+  }
+
+  .teamright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left-style: solid;
+    border-color: #3768d2;
+  }
+
+  .textdiv {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea, input[type=email] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  
+
+  
+  
+  /* Style the submit button with a specific background color etc */
+  .submit {
+    background-color: #3768d2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #315298;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #999b9f;
+    padding: 20px;
+  } 
+
+ #contact {
+    background-color: #999b9f;
+ }
+
+
+ .l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+ }
+
+ .llink {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+ }
+
+
+ .secteam {
+  padding-bottom: 5em;
+ }
+
+ .download {
+  margin-top: 2em;
+ }
